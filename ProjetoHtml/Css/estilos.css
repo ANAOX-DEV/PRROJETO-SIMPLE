@@ -1,0 +1,76 @@
+header{
+    color: aliceblue;
+    background-color: blue;
+}
+nav {
+    border: solid 1px;
+    background-color: rgb(98, 0, 255);
+    border-color: black;
+}
+
+body {
+    border: solid 1px;
+    background-color: rgb(197, 142, 248);
+}
+footer{
+    border: solid 1px;
+    background-color: bisque;
+}
+img{
+    max-width: 150px;
+    max-height: 150px;
+}
+form {
+    border: solid 1px;
+    background-color: rgb(98, 0, 255);
+}
+
+input {
+    border: solid 1px;
+    border-color: rgb(72, 7, 250);
+    background-color: rgb(33, 107, 107);
+}
+
+a {
+    color: red;
+}
+
+label {
+    border: solid 1px;
+    border-color: blueviolet;
+}
+
+table {
+    border: solid 1px;
+    border-color: blueviolet;
+}
+
+th {
+    border: solid 1px;
+    border-color: blueviolet;
+}
+
+tr {
+    border: solid 1px;
+    border-color: blueviolet;
+}
+
+td {
+    border: solid 1px;
+    border-color: blueviolet;
+}
+
+ol {
+    border: solid 1px;
+    border-color: blueviolet;
+}
+
+ul {
+    border: solid 1px;
+    border-color: blueviolet;
+}
+
+li {
+    border: solid 1px;
+    border-color: blueviolet;
+}
