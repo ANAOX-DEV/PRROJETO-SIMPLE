@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="../Css/estilos.css">
 
 <head>
-    <title>FORM</title>
+    <title>FORMULARIO</title>
 </head>
 
 <header>
@@ -26,14 +26,11 @@
 
 <body>
     <br>
-    <form method="post" action=""><br>
-        <label>
-            campo 1: <input type="text" name="campo_1"><br><br>
-            campo 2: <input type="text" name="campo_2"><br><br>
-            campo 3: <input type="text" name="campo_3"><br><br>
-            <input type="datetime-local" name="bdaytime"><br><br>
-        </label>
+    <form name="myForm" id="myForm" method="post" action="./logado.html" onsubmit="return validateForm()"><br>
+        campo 1: <input id="myInput" type="text" name="campo_1"><br><br>
+        <input type="submit" value="SUBMIT">
     </form>
+    <script src="../Js/form.js"></script>
 </body>
 <footer>
     FOOTER
