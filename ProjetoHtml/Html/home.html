@@ -26,10 +26,15 @@
 </nav>
 
 <body>
+    <button onclick="cambia()">hide header</button>
     <hr>
-    <h1>H1</h1>
+    <h1 class="primero">H1</h1>
+    <button id="btn-primero" onclick="apagaPrimero()">apagaPrimero</button>
+    <button onclick="cambiaBackH1()">cambiaBackH1</button>
     <hr>
-    <h2>H2</h2>
+    <h2 id="segundo">H2</h2>
+    <button  onclick="apagaSegundo()">apagaSegundo</button>
+    <button id="btn-show">SHOW SEGUNDO</button>
     <hr>
     <h3>H3</h3>
     <hr>
@@ -69,6 +74,8 @@
     de todo tipo-->
     <br>
     <hr>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../Js/home.js"></script>
 </body>
 <footer>
     FOOTER
