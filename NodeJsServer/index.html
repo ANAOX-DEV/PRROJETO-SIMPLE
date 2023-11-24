@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE</title>
+</head>
+
+<body>
+    <script>
+        function request1() {
+            var myRequest = new Request('http://www.w3schols.com/angular/customers_mysql.php');
+            fetch(myRequest)
+                .then(response => {
+                    if (response.status === 200) {
+                        return response.json;
+                    } else {
+                        throw new Error('ops, error no servidor');
+                    }
+                })
+                .then(response => {
+                    alert(JSON.stringify(response.records));
+                }).catch(error => {
+                    console.error(error);
+                });
+        }
+    </script>
+    <button onclick="request1()">request_1</button>
+
+    <script src="./server.js"></script>
+</body>
+</html>
