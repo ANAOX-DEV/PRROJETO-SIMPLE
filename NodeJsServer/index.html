@@ -10,7 +10,8 @@
 <body>
     <script>
         function request1() {
-            var myRequest = new Request('http://www.w3schols.com/angular/customers_mysql.php');
+            var myRequest = new Request('http://localhost:3000/teste');
+            // var myRequest = new Request('http://www.w3schols.com/angular/customers_mysql.php');
             fetch(myRequest)
                 .then(response => {
                     if (response.status === 200) {
@@ -27,7 +28,5 @@
         }
     </script>
     <button onclick="request1()">request_1</button>
-
-    <script src="./server.js"></script>
 </body>
 </html>

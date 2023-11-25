@@ -9,6 +9,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.get('/teste', function(req,res){
+    res.header('Access-Control-Allow-Origin', '*');
     res.writeHead(200, {'Content-Type' : 'application/json'});
     res.end('{"mensagem" : "Requisicion deu certo"}');
 });
